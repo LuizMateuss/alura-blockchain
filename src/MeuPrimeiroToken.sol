@@ -52,3 +52,8 @@ contract MeuToken {
 // Deployer: 0x6d372a322E281aA649f5986145eB98FBE207bf9a
 // Deployed to: 0x313C34A6046Aa8Ac9Da6841B1b77da9c5Ef18D6c
 // Transaction hash: 0x8d8a1cd99611b857ad80a6ef42e1421ec4f03091c339204db9201472415cd500
+
+
+// Processo de compilação:
+// Transforma em bitcode
+// npx solc --bin src/MeuPrimeiroToken.sol 

@@ -78,3 +78,18 @@ Para mais detalhes sobre o ERC-721, explore a sua documentação oficial.
 https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
 
 
+-----------------------------------------------------------------------------------------------------------------------
+
+Os Contratos Inteligentes
+
+Você pode estar se perguntando o porquê desse nome, Smart Contracts (Contratos Inteligentes). Esse nome para os programas que escrevemos em blockchain vem porque é um conceito que já existia antes da blockchain, que foi só uma ferramenta que permite que esses contratos sejam criados.
+
+Esse conceito vem lá desde os anos 1990, tinha sido proposto pelo Nick Szabo, que é um criptógrafo e estudioso da área do Direito. Ele tinha proposto o seguinte: se conseguiríamos escrever um contrato que fosse autoexecutável, que você escrevesse os acordos e depois quando as condições para aqueles acordos acontecessem, eles já fossem executados automaticamente, sem depender de uma intervenção humana posterior.
+
+O exemplo que fica muito claro para entender é quando compramos um refrigerante nas máquinas automáticas. Ali é como se tivesse um acordo estabelecido, onde colocamos a nossa moeda, selecionamos o refrigerante e esse acordo se autoexecuta.
+
+Quando o sistema identifica o nosso pagamento, ele já libera o refrigerante. O que era proposto era se conseguíssemos fazer isso com coisas mais complexas, como, por exemplo, a transferência da propriedade de um imóvel ou de um carro.
+
+E o que a blockchain fez foi justamente ser uma ferramenta onde podemos construir acordos desse tipo. E por isso esses programas escritos para a blockchain são chamados de contratos inteligentes.
+
+
