@@ -27,6 +27,9 @@ O Foundry, por outro lado, é uma suíte de ferramentas completa escrita em Rust
 Para mais detalhes sobre o Foundry, explore a documentação oficial da ferramenta.
 
 
+Foundry é como um framework de testes para Solidity, similar ao JUnit ou pytest, que permite escrever e executar testes automatizados para contratos inteligentes.
+A analogia com frameworks de testes tradicionais é bastante precisa. O Foundry permite escrever testes unitários e de integração para garantir a funcionalidade e segurança dos contratos inteligentes antes da implantação.
+
 
 ------------------------------------------
 
@@ -41,5 +44,37 @@ https://metamask.io/
 ------------------------------------------------
 Extensões de blockchain
 https://medium.com/coinmonks/the-best-vs-code-extensions-for-blockchain-developers-boosting-efficiency-and-simplifying-2f5ae6940afa
+
+
+
+----------------------------------------------------------------------------
+Para saber mais: ERC-20 e ERC-721
+
+No contexto da blockchain, os padrões de token ERC-20 e ERC-721 são como moldes que definem como os tokens digitais funcionam na rede Ethereum. Eles garantem compatibilidade e facilitam a criação de tokens com funcionalidades específicas.
+ERC-20: O padrão para tokens fungíveis
+
+Imagine o ERC-20 como o padrão para criar moedas digitais dentro da Ethereum. Ele define regras para:
+
+    Transferência de tokens: define como os tokens se movem entre endereços;
+
+    Aprovação de gastos: permite que terceiros (ex.: aplicações descentralizadas) usem seus tokens com sua permissão;
+
+    Saldo de tokens: define como verificar o saldo de um endereço.
+
+Para mais detalhes sobre o ERC-20, explore a sua documentação oficial.
+https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+
+ERC-721: O padrão para tokens não fungíveis (NFTs)
+
+Imagine o ERC-721 como um padrão para criar itens digitais únicos e indivisíveis. Ele define regras para:
+
+    Propriedade única: cada token ERC-721 é exclusivo e possui um dono;
+
+    Metadados: permite associar informações adicionais a cada token, como nome, descrição e imagens;
+
+    Transferência e gerenciamento: define como os NFTs são comprados, vendidos e gerenciados.
+
+Para mais detalhes sobre o ERC-721, explore a sua documentação oficial.
+https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
 
 
