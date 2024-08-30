@@ -22,6 +22,8 @@ contract Variables {
     enum State { Created, Locked, Inactive } //numero finito de valores
     State public state; //variavel do tipo State definida no enum
 
+    event Added(uint value);
+
     // public, internal, external, private
     function getGreeting() public returns (string memory) {
         return "Hello, World!";
@@ -36,8 +38,18 @@ contract Variables {
         return _a + _b;
     }
 
+    function addWithEvent(uint _a, uint _b) public returns (uint){
+        uint _c = _a + _b;
+        emit Added(_c); //emite o evento Added, a cada vez que a função for executada, sera adicionada na blockchain.
+        return _c;
+    }
+
     function getNameView() public view returns (string memory) { //view. Embora não altere a blockchain, ela consulta uma variável declarada nesse código. Ela não é pura, precisa consultar a blockchain em algum momento.
         return name;
+    }
+
+    function getSender() public view returns (address) { // view indica que a função não altera o estado do contrato, apenas lê, o que a torna mais barata em termos de consumo.
+        return msg.sender;
     }
 
     modifier onlyOwner() {

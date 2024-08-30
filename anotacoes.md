@@ -93,3 +93,28 @@ Quando o sistema identifica o nosso pagamento, ele já libera o refrigerante. O 
 E o que a blockchain fez foi justamente ser uma ferramenta onde podemos construir acordos desse tipo. E por isso esses programas escritos para a blockchain são chamados de contratos inteligentes.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://remix.ethereum.org/
+
+IDE para progamar com solidity
+
+
+
+Imagine um editor de código online e gratuito, onde você pode escrever, testar e implantar contratos inteligentes na blockchain Ethereum, sem precisar instalar nenhum programa em seu computador. Esse é o objetivo do Remix IDE, uma ferramenta completa e acessível para pessoas desenvolvedoras.
+Vantagens
+
+    Tudo em um só lugar: o Remix IDE oferece um ambiente completo para desenvolvimento blockchain diretamente no seu navegador. Você não precisa configurar nada, basta acessar https://remix.ethereum.org/ e começar a programar;
+
+    Suporte a Solidity: Solidity é a linguagem de programação mais popular para contratos inteligentes, e é totalmente suportada pelo Remix IDE, com recursos como destaque de sintaxe, autocompletar de código e detecção de erros;*
+
+    Compilador Solidity integrado: transforma o seu código Solidity em um formato executável pela blockchain com apenas um clique;
+
+    Depurador de código: identifica e corrige erros no seu código com facilidade usando o depurador integrado, que permite executar o código passo a passo e inspecionar variáveis;
+
+    Simulador de blockchain: testa seus contratos inteligentes em um ambiente seguro e isolado, sem gastar criptomoedas reais, antes de implantá-los na blockchain real;
+
+    Conexão com carteiras e redes: é possível conectar o Remix IDE à sua carteira MetaMask para implantar seus contratos inteligentes em diferentes redes Ethereum, como a rede principal ou redes de teste.
+
+
+
