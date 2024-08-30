@@ -30,6 +30,20 @@ contract MeuToken {
 // --constructor-args é o valor passado para o initialSupply
 // Explorer para acessar todos os dados da blockchain. Colocar o hash da transação e a transação irá aparecer.
 // https://amoy.polygonscan.com/
+// Informações importantes de uma transação
+
+//     Status: indica se a transação foi bem-sucedida ou não;
+
+//     Bloco: informa em qual bloco da blockchain a transação foi incluída;
+
+//     De (From): endereço que enviou a transação (ex.: sua carteira MetaMask);
+
+//     Para (To): endereço que recebeu a transação (ex.: endereço do contrato inteligente);
+
+//     Valor: quantidade de criptomoedas (ex.: MATIC) ou tokens transferidos;
+
+//     Taxa de Gas: custo da transação em termos de "gas" (unidade de processamento na blockchain).
+
 
 // Como adquirir moedas de teste
 // https://docs.polygon.technology/tools/gas/matic-faucet/
