@@ -134,8 +134,44 @@ https://eips.ethereum.org/EIPS/eip-20
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-
+Site com libs para escrever smart contracts
 
 https://wizard.openzeppelin.com/
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+1. Clonando o Repositório com Submódulos
+Quando você clona um repositório que contém submódulos, você deve adicionar a opção --recurse-submodules no comando git clone para garantir que os submódulos também sejam clonados automaticamente.
+
+Comando:
+
+bash
+Copy code
+git clone --recurse-submodules <url-do-repositorio>
+Isso vai garantir que o Git clone o repositório principal e inicialize e atualize todos os submódulos listados no arquivo .gitmodules.
+
+2. Inicializando e Atualizando Submódulos (Após Clonar)
+Se você já clonou o repositório sem a opção --recurse-submodules, ou se os submódulos não foram baixados automaticamente, você pode inicializá-los e atualizá-los manualmente usando os seguintes comandos:
+
+Inicializar Submódulos
+Este comando configura os submódulos, mas não baixa ainda o conteúdo deles.
+
+git submodule init
+
+
+Atualizar Submódulos
+Depois de inicializá-los, este comando baixa o conteúdo dos submódulos na versão correta, conforme especificado no commit.
+
+git submodule update
+
+
+Ou você pode combinar os dois comandos:
+
+git submodule update --init
+
+
+Isso faz com que o Git inicialize e faça o download dos submódulos automaticamente, trazendo todos os arquivos necessários para o projeto.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
