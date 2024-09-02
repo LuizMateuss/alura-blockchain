@@ -118,3 +118,13 @@ Vantagens
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Plataformas para subir ambiente
+https://www.techtarget.com/searchcio/feature/Top-9-blockchain-platforms-to-consider
+
+https://www.hyperledger.org
+https://corda.net/
+https://consensys.io/
+
+
