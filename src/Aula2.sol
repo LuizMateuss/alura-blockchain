@@ -54,7 +54,7 @@ contract Variables {
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Not the contract owner"); //verifica se é o dono do contrato, é uma condição
-        _;
+        _; //define em qual momento a função será executada, a função que chama o modifier
     }
 
     function getNameViewOnlyOwner() public view onlyOwner returns (string memory) { // valida com o modificador onlyOwner se quem está enviando o msg.sender é o owner do contrato
