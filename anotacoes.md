@@ -180,3 +180,6 @@ Instalando um projeto com foundry
 ```
 forge init bank-token --no-commit
 ```
+```
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
+```
