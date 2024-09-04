@@ -175,3 +175,8 @@ Isso faz com que o Git inicialize e faça o download dos submódulos automaticam
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+Instalando um projeto com foundry
+
+```
+forge init bank-token --no-commit
+```
