@@ -215,3 +215,13 @@ Infura
 Um dos provedores mais populares, o Infura é conhecido por sua confiabilidade e escalabilidade, sendo utilizado por grandes empresas e projetos blockchain. Infura oferece uma infraestrutura altamente resiliente, com suporte para múltiplas redes blockchain e integração fácil com ferramentas de desenvolvimento populares. Além disso, sua API é otimizada para lidar com grandes volumes de tráfego, tornando-a ideal para projetos que exigem alta disponibilidade e performance.
 
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Explorer da blockchain ethereum
+
+https://etherscan.io/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Projeto front
+https://github.com/alura-cursos/3876-blockchain-frontend/archive/refs/heads/projeto_inicial.zip
