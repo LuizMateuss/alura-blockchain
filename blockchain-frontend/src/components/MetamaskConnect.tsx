@@ -9,9 +9,14 @@ const MetaMaskConnect = () => {
 
   const handleConnect = async () => {
     try {
-      const { account, balance } = await connectWallet();
-      setAccount(account);
-      setBalance(balance);
+      const wallet = await connectWallet();
+      if (wallet) {
+        const { account, balance } = wallet;
+        setAccount(account);
+        setBalance(Number(balance));
+      } else {
+        console.error("Wallet connection failed...");
+      }
     } catch (error) {
       console.error('Falha ao conectar', error);
     }
