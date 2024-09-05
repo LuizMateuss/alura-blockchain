@@ -183,3 +183,35 @@ forge init bank-token --no-commit
 ```
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
 ```
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+RPC - Remote procedure call
+
+ponto de conexão com a blockchain
+
+Imagine que você quer enviar uma carta. Você precisa escrever a carta, colocá-la em um envelope, endereçá-la corretamente e, por fim, enviá-la pelos Correios. No mundo das blockchains, enviar uma transação com sua carteira digital funciona de forma semelhante: você precisa de um "carteiro" para entregar sua solicitação à rede blockchain. É aí que entram os provedores RPC (Remote Procedure Call), como QuickNode, Alchemy e Infura.
+
+
+O papel dos provedores RPC
+Ponte entre a carteira e a Blockchain
+
+Sua carteira, como a MetaMask, precisa se comunicar com a rede blockchain para enviar transações, verificar saldos ou interagir com contratos inteligentes. Os provedores RPC atuam como intermediários nesse processo, fornecendo um ponto de acesso confiável e eficiente à blockchain. Sem esses provedores, cada usuário teria que operar seu próprio nó da blockchain, o que pode ser impraticável para muitos devido aos altos custos e complexidade técnica.
+Infraestrutura robusta
+
+Executar um nó completo da blockchain (um computador que valida e retransmite transações) pode ser caro e complexo. Os provedores RPC possuem infraestrutura especializada e otimizada para garantir conexões rápidas e confiáveis à blockchain. Eles lidam com o armazenamento de grandes volumes de dados e garantem que a rede continue operando sem interrupções, independentemente do tráfego ou da carga de transações.
+Simplicidade
+
+Ao utilizar um provedor RPC, as pessoas desenvolvedoras não precisam se preocupar em configurar e manter sua própria infraestrutura de blockchain. Isso acelera o tempo de desenvolvimento e reduz os custos operacionais, permitindo o foco na inovação e na melhoria contínua de seus aplicativos.
+Principais provedores RPC
+QuickNode
+
+Conhecido por sua velocidade e interface amigável, o QuickNode oferece suporte a diversas blockchains, além de ferramentas de análise e monitoramento. Seus recursos incluem sincronização rápida de nós, acesso a APIs personalizadas e suporte dedicado ao cliente, tornando-o uma escolha popular entre pessoas desenvolvedoras que buscam desempenho e facilidade de uso.
+Alchemy
+
+Oferece recursos avançados para pessoas desenvolvedoras, como APIs dedicadas a NFTs, notificações em tempo real e ferramentas de depuração. Alchemy também investe em segurança e desempenho, com funcionalidades como caching de dados, redundância de servidores e proteção contra ataques DDoS.
+Infura
+
+Um dos provedores mais populares, o Infura é conhecido por sua confiabilidade e escalabilidade, sendo utilizado por grandes empresas e projetos blockchain. Infura oferece uma infraestrutura altamente resiliente, com suporte para múltiplas redes blockchain e integração fácil com ferramentas de desenvolvimento populares. Além disso, sua API é otimizada para lidar com grandes volumes de tráfego, tornando-a ideal para projetos que exigem alta disponibilidade e performance.
+
+
