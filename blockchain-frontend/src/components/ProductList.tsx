@@ -71,13 +71,28 @@ const products: Product[] = [
     id: 14,
     name: "Câmera Fotográfica",
     description: "Câmera fotográfica profissional com alta resolução.",
-    price: 8,
+    price: 800000,
     imageUrl: "/products/camera.jpg",
   }
 ];
 
 const ProductList = () => {
   const handleBuy = async (price: number) => {
+    const accounts = await window.ethereum.request({
+      method: 'eth_requestAccounts'
+    })
+    const address = accounts[0]
+    try{
+      const result = await buyProduct(address, price)
+      if (result.isSuccess){
+        toast.success(`Transação confirmada: ${result.txHash}`)
+      }else{
+        toast.error(`Erro ransação: ${result.error}`)
+      }
+    }catch(e){
+      console.log(e)
+      toast.error(`Erro no envio: ${e}`)
+    }
   }
 
   return (
